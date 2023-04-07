@@ -1,5 +1,6 @@
 @Test
   Feature: login feature
+    @Login
     Scenario: login with valid username and password
       Given User already open APS website
       When Input username "candidat"

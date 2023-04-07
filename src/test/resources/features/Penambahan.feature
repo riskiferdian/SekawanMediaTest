@@ -1,5 +1,6 @@
-@Test1
+@Test
   Feature: penambahan
+    @Penambahan
     Scenario: Penambahan data pemilih
       Given User already open APS website
       When Input username "candidat"
